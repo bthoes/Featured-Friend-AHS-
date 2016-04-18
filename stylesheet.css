@@ -1,0 +1,185 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Globals */
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	font-family: "Roboto";
+	margin-top: 0;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+/* Header */
+
+.page-header {
+	background: #0285ae;
+	text-align: center;
+	padding: 1em;
+	position: relative;
+	border-bottom: 10px solid #ef984e;
+}
+
+.page-header h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+
+.page-header ul {
+	list-style-type: none;
+}
+
+.page-header li {
+	display: inline;
+}
+
+.page-header a {
+	color: #fff;
+	background: #ef984e;
+	text-decoration: none;
+	padding: .75em;
+	margin: 1em;
+	font-size: 1.2em;
+}
+
+#donate {
+	background: #cc5b00;
+}
+
+.page-header .social {
+	position: absolute;
+	font-size: 2em;
+	right: .9em;
+	top: 65%;
+}
+
+.page-header .social i {
+	color: #fff;
+}
+
+/* Main-Content */
+
+.main-content {
+	margin-top: 4em;
+	padding: 2em;
+	max-width: 1000px;
+	min-width: 800px;
+	margin: auto;
+}
+
+/* Featured Pets */
+
+.featured-pet {
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+	border-bottom: solid #ef984e;
+}
+
+.featured-pet img {
+	float: right;
+	width: 60%;
+	border-bottom: 10px solid #00b4e5;
+	border-right: 10px solid #0285ae;
+	border-top: 10px solid #00b4e5;
+	border-left: 10px solid #0285ae;
+	margin: 0em 0em 0em 1.5em;
+}
+
+.ahs-info {
+	color: #fff;
+	background: #0285ae;
+	width: 100%;
+	line-height: 1em;
+	padding: .5em;
+	text-align: center;
+}
+
+.ahs-info h3 {
+	font-size: 1.5em;
+}
+}
+
+a .ahs-info {
+	text-align: center;
+}
+
+.map {
+	text-decoration: none;
+}
+
+.facts h2 {
+	font-size: 2.5em;
+	font-family: "Baskerville";
+	font-weight: normal;
+	color: #0285ae;;
+}
+
+.facts h3 {
+	background: #cc5b00;
+	color: #fff;
+	width: 24%;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+.bio h3 {
+	font-size: 1.5em;
+	font-family: "Baskerville";
+	color: #ef984e;
+	font-weight: normal;
+}
+
+.nav-icon {
+	cursor: pointer;
+}
+
+.donate {
+	display: none;
+}
+
+.sidebar-open .donate {
+	background: #00b4e5;
+	display: block;
+	width: 35%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	z-index: 10;
+}
+
+.sidebar-open .donate .container {
+	position: relative;
+}
+
+.sidebar-open .donate .container .donate-info {
+	margin: .5em;
+	padding: 1em .5em 1.5em .5em;
+	font-size: 1em;
+	background: #0285ae;
+	color: #fff;
+	line-height: 2em;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(50%);
+
+}
+
+.sidebar-open .donate .donate-info h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.sidebar-open .donate .donate-info #submit {
+	font-size: 1em;
+}
